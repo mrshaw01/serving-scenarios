@@ -5,7 +5,7 @@ This folder contains numbered scenario directories.
 ```text
 scenarios/
 ├── README.md
-├── 00_<scenario_name>/
+├── 00_long_document_chat/
 ├── 01_<scenario_name>/
 └── 02_<scenario_name>/
 ```
