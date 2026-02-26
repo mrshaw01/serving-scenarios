@@ -12,7 +12,6 @@ repos:
       - id: yapf
         name: Format Python code with YAPF
         files: \.py$
-        language_version: python3.11
         additional_dependencies: ["toml"]
         args: ["--in-place", "--recursive"]
 
@@ -22,7 +21,6 @@ repos:
       - id: nbqa-yapf
         name: Format Jupyter notebooks with YAPF
         files: \.ipynb$
-        language_version: python3.11
         additional_dependencies: ["yapf==0.32.0", "toml"]
         args: ["--in-place"]
 
