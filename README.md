@@ -52,7 +52,6 @@ Repository rule: all notebooks in this repo, including future notebooks, must re
 
 1. `smoke_test.ipynb` must stay at the repository root as the quick endpoint liveness check.
 2. All future development must be organized under `scenarios/` in numbered folders:
-   - `scenarios/00_<name>/`
    - `scenarios/01_<name>/`
    - `scenarios/02_<name>/`
 3. Each scenario folder must be self-contained and include all required assets for that scenario (notebooks, scripts, and supporting code).
